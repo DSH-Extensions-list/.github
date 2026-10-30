@@ -4,7 +4,7 @@ Custom extensions and package mirrors for DeepSeek Harness, maintained by [arzva
 
 ## Installed extension collection
 
-The versions below were recorded from the desktop DSH profile on 2026-10-30. PowerPoint extensions are excluded. This list covers separately installed packages rather than DSH's bundled core plugins.
+The versions below were recorded from the desktop DSH profile on 2026-10-30. The newly published Deckforge presentation extension is listed separately below. This list covers separately installed packages rather than DSH's bundled core plugins.
 
 | Repository | Recorded installed version |
 | --- | --- |
@@ -22,6 +22,10 @@ The versions below were recorded from the desktop DSH profile on 2026-10-30. Pow
 | [dsh-tool-call-guard-english](https://github.com/DSH-Extensions-list/dsh-tool-call-guard-english) | `0.1.1-english.20261023.1` |
 | [dsh-visuals](https://github.com/DSH-Extensions-list/dsh-visuals) | `0.1.2` |
 | [max-tokens-continue](https://github.com/DSH-Extensions-list/max-tokens-continue) | `1.1.0-english.20261023` |
+
+## Presentation extension
+
+- [dsh-deckforge](https://github.com/DSH-Extensions-list/dsh-deckforge): Deck Studio for creating, editing, importing and verifying native PowerPoint decks, with an offline HTML presenter. Source version `1.0.0`; see its README for installation and verification limits.
 
 ## Also available
 
