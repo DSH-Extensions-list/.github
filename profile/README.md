@@ -20,7 +20,7 @@ I'm [arzvaak](https://github.com/arzvaak). Each entry explains what I use it for
 
 | I want to… | Start with |
 | --- | --- |
-| Keep the coordinator available while coding workers run | [DSH Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) — model selectors, one BharatCode child at a time, full-context budgets, worker controls, and independent review. |
+| Keep the coordinator available while coding workers run | [DSH Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) — per-task model selection, queued native and official Muse CLI workers, worker controls, and independent review. |
 | Create and edit a presentation | [PPT Flashmade — my English edition](https://github.com/DSH-Extensions-list/dsh-ppt-flashmade) — themes, editable PowerPoint export, slide previews, and rendered review. |
 | Show charts and diagrams in an answer | [DSH Visuals](https://github.com/DSH-Extensions-list/dsh-visuals) — inline charts, Mermaid diagrams, editable previews, and SVG export. |
 | Connect BharatCode or another model endpoint | [Provider Hub](https://github.com/DSH-Extensions-list/dsh-provider-hub) — provider setup and model discovery, with subscription sign-in through the subscriptions plugin. |
@@ -65,7 +65,7 @@ I'm [arzvaak](https://github.com/arzvaak). Each entry explains what I use it for
 
 | Extension | What it adds | Distribution |
 | --- | --- | --- |
-| [Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) | Background task orchestration with a responsive coordinator, sequential BharatCode workers, full-context budgets, model/reasoning selectors, status, messaging, cancellation and review. | Source fork |
+| [Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) | Discover models, choose one per task, queue native and official Muse CLI workers, and retain reviewed results with status and cancellation. | Adapted source + release package |
 | [LSP Actions](https://github.com/DSH-Extensions-list/dsh-lsp-actions) | Language-server diagnostics, formatting, code actions, symbols, and rename tools. | Package snapshot |
 | [MCP Panel](https://github.com/DSH-Extensions-list/dsh-mcp-panel) | MCP server management, connection diagnostics, tool inventory, and trial calls. | Package snapshot |
 
