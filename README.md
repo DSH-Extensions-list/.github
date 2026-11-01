@@ -1,15 +1,15 @@
 # DSH Extensions — organization profile
 
-The public extension catalog lives in **[profile/README.md](profile/README.md)** and appears on the [DSH Extensions organization page](https://github.com/DSH-Extensions-list).
+I keep the public extension catalog in **[profile/README.md](profile/README.md)** and it appears on the [DSH Extensions organization page](https://github.com/DSH-Extensions-list).
 
-It helps visitors choose an extension, understand what it adds to DeepSeek Harness, and find the right installation route. This repository contains the catalog and its maintenance guidance; extension code belongs in each project's repository.
+It helps visitors choose an extension, understand what it adds to DeepSeek Harness, and find the right installation route. I use this repository for the catalog and its maintenance guidance; extension code belongs in each project's repository.
 
 ## Keeping the catalog current
 
 1. Check the current DSH profile's declared dependencies and installed package manifests. A repository's existence alone does not establish that it belongs in the current collection.
 2. Check public repository visibility, README features, and available release assets. Link only publicly accessible destinations from the organization profile.
-3. Put each extension in a useful category and describe its actual behavior in one sentence. Use the distribution labels consistently: **Source**, **Source fork**, **Package snapshot**, or **Upstream npm reference**.
-4. Keep locally installed editions without an organization distribution in **Also in our setup**. Link upstream and state that upstream downloads do not contain our unpublished changes.
+3. Put each extension in a useful category and describe its actual behavior in one sentence. Use the distribution labels consistently: **Source**, **Source fork**, **Adapted source + release package**, **Package snapshot**, or **Upstream npm reference**.
+4. Keep locally installed editions without an organization distribution in **Also in my setup**. Link upstream and state that upstream downloads do not contain my unpublished changes.
 5. Remove retired entries from the current catalog. Preserve repository history unless repository removal is separately requested.
 6. Update the reconciliation date after checking the installation. Keep version inventories out of the landing page; versions, compatibility ranges, and verification limits belong with each package.
 
