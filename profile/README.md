@@ -20,6 +20,7 @@ I'm [arzvaak](https://github.com/arzvaak). Each entry explains what I use it for
 
 | I want to… | Start with |
 | --- | --- |
+| Keep the coordinator available while coding workers run | [DSH Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) — model selectors, one BharatCode child at a time, full-context budgets, worker controls, and independent review. |
 | Create and edit a presentation | [PPT Flashmade — my English edition](https://github.com/DSH-Extensions-list/dsh-ppt-flashmade) — themes, editable PowerPoint export, slide previews, and rendered review. |
 | Show charts and diagrams in an answer | [DSH Visuals](https://github.com/DSH-Extensions-list/dsh-visuals) — inline charts, Mermaid diagrams, editable previews, and SVG export. |
 | Connect BharatCode or another model endpoint | [Provider Hub](https://github.com/DSH-Extensions-list/dsh-provider-hub) — provider setup and model discovery, with subscription sign-in through the subscriptions plugin. |
@@ -64,16 +65,17 @@ I'm [arzvaak](https://github.com/arzvaak). Each entry explains what I use it for
 
 | Extension | What it adds | Distribution |
 | --- | --- | --- |
+| [Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) | Background task orchestration with a responsive coordinator, sequential BharatCode workers, full-context budgets, model/reasoning selectors, status, messaging, cancellation and review. | Source fork |
 | [LSP Actions](https://github.com/DSH-Extensions-list/dsh-lsp-actions) | Language-server diagnostics, formatting, code actions, symbols, and rename tools. | Package snapshot |
 | [MCP Panel](https://github.com/DSH-Extensions-list/dsh-mcp-panel) | MCP server management, connection diagnostics, tool inventory, and trial calls. | Package snapshot |
 
 ### Also in my setup
 
-I also use the project below with local changes. I haven't published that edition here yet, so this link goes to upstream and its downloads won't include my changes.
+Conductor is derived from the project below. The maintained fork and its verification notes are linked above; upstream keeps its original credit and license.
 
 | Project | What I use it for |
 | --- | --- |
-| [Task Orchestrator](https://github.com/hasan-aghayev/dsh-task-orchestrator) | Plan-driven delegation to isolated workers, dependency scheduling, and review. My installed edition includes local changes to orchestration and model settings. |
+| [Task Orchestrator](https://github.com/hasan-aghayev/dsh-task-orchestrator) | Plan-driven delegation, dependency scheduling and review; the upstream foundation for Conductor. |
 
 ## Installation
 
@@ -97,6 +99,6 @@ Use `web` or your own profile name as appropriate, and use the CLI belonging to 
 
 Each project keeps its own license and attribution. This is an independently maintained collection; inclusion does not imply endorsement by DeepSeek or upstream authors. Compatibility and verification details belong in each extension's README.
 
-I checked this list against my desktop profile on **1 November 2026**. It covers the public extensions in that setup; older repositories can still be in the organization without being part of this list.
+I checked this list against my desktop profile on **1 November 2026**. The collection also includes new releases prepared for later activation; installation state varies by machine. Older repositories can still be in the organization without being part of this list.
 
 Found a problem? Open an issue in the relevant extension repository. If I missed something in this list, [open an issue here](https://github.com/DSH-Extensions-list/.github/issues/new).
