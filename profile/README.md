@@ -64,6 +64,7 @@ The four baoyu-design editions share an **Artifacts** sidebar and local editor/c
 | Extension | What it adds | Distribution |
 | --- | --- | --- |
 | [Engram — English edition](https://github.com/DSH-Extensions-list/dsh-engram-english) | Cross-session memory with user/project separation and searchable stored knowledge. | Source fork |
+| [HarnessMM](https://github.com/DSH-Extensions-list/dsh-harnessmm) | Guarded reuse of stored tool decisions and protected evaluation of route-specific procedures, retaining native permissions and cancellation. | Adapted source + release package |
 | [Context](https://github.com/DSH-Extensions-list/dsh-context) | Context composition, token usage, session insights, and agent-family views. | Package snapshot |
 | [Tool Call Guard — English edition](https://github.com/DSH-Extensions-list/dsh-tool-call-guard-english) | Neutralizes malformed tool-call JSON in outgoing history so strict providers can accept subsequent requests. | Source fork |
 | [Max Tokens Continue](https://github.com/DSH-Extensions-list/max-tokens-continue) | Bounded continuation when a response hits the provider's output-token limit. | Package snapshot |
@@ -108,6 +109,6 @@ Use your own CLI profile name as appropriate and the CLI belonging to your DSH i
 
 Each project keeps its own license and attribution. This is an independently maintained collection; inclusion does not imply endorsement by DeepSeek or upstream authors. Compatibility and verification details belong in each extension's README.
 
-I updated the presentation and design entries against my desktop profile on **2 November 2026**; the rest of the collection was last reconciled on **1 November 2026**. The baoyu-design suite replaces PPT Flashmade and Deckforge in my setup. Their repositories remain available as history. Installation state varies by machine.
+I updated the presentation, design, and HarnessMM entries against my desktop profile on **2 November 2026**; the rest of the collection was last reconciled on **1 November 2026**. The baoyu-design suite replaces PPT Flashmade and Deckforge in my setup. Their repositories remain available as history. Installation state varies by machine.
 
 Found a problem? Open an issue in the relevant extension repository. If I missed something in this list, [open an issue here](https://github.com/DSH-Extensions-list/.github/issues/new).
