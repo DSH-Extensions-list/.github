@@ -21,7 +21,9 @@ I'm [arzvaak](https://github.com/arzvaak). Each entry explains what I use it for
 | I want to… | Start with |
 | --- | --- |
 | Keep the coordinator available while coding workers run | [DSH Conductor](https://github.com/DSH-Extensions-list/dsh-conductor) — per-task model selection, queued native and official Muse CLI workers, worker controls, and independent review. |
-| Create and edit a presentation | [PPT Flashmade — my English edition](https://github.com/DSH-Extensions-list/dsh-ppt-flashmade) — themes, editable PowerPoint export, slide previews, and rendered review. |
+| Create and edit a presentation | [Claude Slides — my English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-slides) — a local slide editor with direct editing, comments, and PDF, HTML, or PowerPoint export. |
+| Design a website or app screen | [Claude Design — my English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-design) — editable artboards for responsive layouts and interactive prototypes. |
+| Build a data-backed dashboard | [Claude Dashboard — my English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-dashboard) — charts, numbers, and tables over data files, with source attribution. |
 | Show charts and diagrams in an answer | [DSH Visuals](https://github.com/DSH-Extensions-list/dsh-visuals) — inline charts, Mermaid diagrams, editable previews, and SVG export. |
 | Connect BharatCode or another model endpoint | [Provider Hub](https://github.com/DSH-Extensions-list/dsh-provider-hub) — provider setup and model discovery, with subscription sign-in through the subscriptions plugin. |
 | Schedule and track background work | [Task Board](https://github.com/DSH-Extensions-list/dsh-client-ui-task-board) — Kanban tasks, scheduled runs, and execution history. |
@@ -29,12 +31,17 @@ I'm [arzvaak](https://github.com/arzvaak). Each entry explains what I use it for
 
 ## Explore the collection
 
-### Presentations and visuals
+### Presentations, design, and visuals
 
 | Extension | What it adds | Distribution |
 | --- | --- | --- |
-| [PPT Flashmade — English edition](https://github.com/DSH-Extensions-list/dsh-ppt-flashmade) | My adapted presentation workflow: 24 themes, editable DrawingML export, charts and tables, template reuse, previews, and rendered review. | Adapted source + release package |
+| [Claude Slides — English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-slides) | My default presentation workflow: editable slide decks, a local editor, comments, history, and PDF/HTML/PowerPoint export. | Adapted source + release package |
+| [Claude Design — English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-design) | Website and app-screen designs on editable canvases with multiple artboards, responsive layouts, and interactive controls. | Adapted source + release package |
+| [Claude Design System — English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-design-system) | Shared colors, typography, tokens, components, assets, and a browsable brand book. | Adapted source + release package |
+| [Claude Dashboard — English edition](https://github.com/DSH-Extensions-list/baoyu-design-english#claude-dashboard) | Data-backed charts, numbers, and tables over CSV/TSV/JSON files, with a Sources panel. | Adapted source + release package |
 | [DSH Visuals](https://github.com/DSH-Extensions-list/dsh-visuals) | Charts, flowcharts, timelines, and Mermaid diagrams rendered inline, with source editing and SVG export. | Source + release package |
+
+The four baoyu-design editions share an **Artifacts** sidebar and local editor/comment workflows. I keep their interfaces, instructions, validator messages, and generated-content defaults in English, including under Chinese browser settings. Download my English packages from the [suite’s Releases page](https://github.com/DSH-Extensions-list/baoyu-design-english/releases/latest); upstream npm downloads do not include these changes. The suite retains upstream authorship and mixed licensing, described in its repository.
 
 ### Providers and usage
 
@@ -85,13 +92,15 @@ Conductor is derived from the project below. The maintained fork and its verific
 - **Package snapshots:** download the `.tgz` archive and checksum from that repository's **Releases** page. These preserve the captured edition; installing the upstream npm package can give you different code or localization.
 - **Subscriptions:** install the original npm distribution. Its repository here is an installation reference, not an installable mirror.
 
-For a downloaded package, the usual profile-specific command is:
+**Desktop:** open **Plugins → Add plugin**, enter the full path to the downloaded `.tgz` file, install it, and enable it. My desktop build reserves its profile for the app’s Plugins page.
+
+For a CLI profile such as `web`:
 
 ```sh
-dsh plugin --profile desktop add /absolute/path/to/extension.tgz
+dsh plugin --profile web add /absolute/path/to/extension.tgz
 ```
 
-Use `web` or your own profile name as appropriate, and use the CLI belonging to your DSH installation. Follow the extension's restart and activation instructions after installing.
+Use your own CLI profile name as appropriate and the CLI belonging to your DSH installation. Follow the extension’s reload/restart instructions, then start a new session to receive newly installed skills.
 
 ## About this collection
 
@@ -99,6 +108,6 @@ Use `web` or your own profile name as appropriate, and use the CLI belonging to 
 
 Each project keeps its own license and attribution. This is an independently maintained collection; inclusion does not imply endorsement by DeepSeek or upstream authors. Compatibility and verification details belong in each extension's README.
 
-I checked this list against my desktop profile on **1 November 2026**. The collection also includes new releases prepared for later activation; installation state varies by machine. Older repositories can still be in the organization without being part of this list.
+I updated the presentation and design entries against my desktop profile on **2 November 2026**; the rest of the collection was last reconciled on **1 November 2026**. The baoyu-design suite replaces PPT Flashmade and Deckforge in my setup. Their repositories remain available as history. Installation state varies by machine.
 
 Found a problem? Open an issue in the relevant extension repository. If I missed something in this list, [open an issue here](https://github.com/DSH-Extensions-list/.github/issues/new).
