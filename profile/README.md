@@ -59,6 +59,7 @@ The four baoyu-design editions share an **Artifacts** sidebar and local editor/c
 | [Task Board](https://github.com/DSH-Extensions-list/dsh-client-ui-task-board) | A Kanban board with scheduled agent runs, execution history, and verification gates. | Package snapshot |
 | [Planning with Files](https://github.com/DSH-Extensions-list/dsh-planning-with-files) | Persistent task plans, findings, and progress files, with reminders and compaction recovery. | Package snapshot |
 | [Skills Manager](https://github.com/DSH-Extensions-list/dsh-skills-manager) | Browse and manage local/project skills, install from GitHub, review updates, and restore backups. | Package snapshot |
+| [Elephant-Goldfish Model](https://github.com/DSH-Extensions-list/dsh-elephant-goldfish-model) | Seven design, documentation, and fresh-context review workflows using native Harness skills and subagents. | Adapted source + release package |
 
 ### Memory, context, and reliability
 
